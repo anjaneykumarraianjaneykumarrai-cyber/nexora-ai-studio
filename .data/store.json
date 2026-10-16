@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "id": "usr_owner_01",
+      "name": "Anjaney Kumar Rai (Owner)",
+      "email": "owner@nexora.ai",
+      "passwordHash": "NexoraOwner#2026",
+      "role": "owner",
+      "active": true
+    },
+    {
+      "id": "usr_admin_02",
+      "name": "Operations Lead (Admin)",
+      "email": "admin@nexora.ai",
+      "passwordHash": "NexoraAdmin#2026",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": "usr_staff_03",
+      "name": "Technical Consultant (Staff)",
+      "email": "staff@nexora.ai",
+      "passwordHash": "NexoraStaff#2026",
+      "role": "staff",
+      "active": true
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "enq_1792126606744_mhht",
+      "fullName": "Anand Verma",
+      "email": "anand@example.com",
+      "phone": "+919838775359",
+      "serviceRequired": "ai_voice_agents",
+      "requirements": "Need an AI voice agent for dental clinic appointment booking",
+      "preferredContact": "whatsapp",
+      "language": "en",
+      "status": "new",
+      "createdAt": "2026-10-16T04:56:46.744Z",
+      "updatedAt": "2026-10-16T04:56:46.744Z",
+      "notificationStatus": {
+        "email": "not_configured",
+        "whatsapp": "not_configured"
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_1792126637350",
+      "customerName": "Dr. Priya Sharma",
+      "email": "priya@hospital.org",
+      "phone": "+917985859410",
+      "topic": "Hospital Telephony AI Automation",
+      "date": "2026-10-20",
+      "startTime": "14:00",
+      "endTime": "14:30",
+      "timezone": "Asia/Kolkata",
+      "status": "cancelled",
+      "googleCalendarEventId": "mock_gcal_1792126637350",
+      "cancellationToken": "NXR-BK-B957153159FE",
+      "createdAt": "2026-10-16T04:57:17.350Z"
+    }
+  ],
+  "calendarConfig": {
+    "meetingDurationMinutes": 30,
+    "availableDays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startHour": "10:00",
+    "endHour": "19:00",
+    "bufferMinutes": 15,
+    "timezone": "Asia/Kolkata",
+    "ownerCalendarId": "anjaneykumarraianjaneykumarrai@gmail.com"
+  },
+  "projects": [
+    {
+      "id": "proj_demo_web_01",
+      "title": "Local Retail & Boutique Hospitality Web Portal",
+      "titleHi": "स्थानीय खुदरा एवं बुटीक हॉस्पिटैलिटी वेब पोर्टल",
+      "category": "web",
+      "description": "Ultra-fast responsive web architecture featuring instant catalog browsing, real-time consultation enquiry routing, and lightweight mobile performance.",
+      "descriptionHi": "अल्ट्रा-फास्ट रिस्पॉन्सिव वेब आर्किटेक्चर जिसमें त्वरित कैटलॉग ब्राउज़िंग, रीयल-टाइम पूछताछ रूटिंग और हल्का मोबाइल अनुभव शामिल है।",
+      "image": "/src/assets/images/demo_website_preview_1792125901773.jpg",
+      "isDemoConcept": true,
+      "previewUrl": "#demo-website",
+      "capabilities": [
+        "Mobile-First Next-Gen UI",
+        "Fast Page Performance",
+        "Direct WhatsApp Enquiry Integration"
+      ],
+      "published": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "proj_demo_voice_02",
+      "title": "Healthcare & Clinic AI Inbound Voice Desk",
+      "titleHi": "हेल्थकेयर एवं क्लिनिक एआई इनबाउंड वॉयस डेस्क",
+      "category": "voice",
+      "description": "Conversational voice assistant capable of qualifying patient enquiries, checking doctor appointment availability, and sending calendar invites.",
+      "descriptionHi": "संवादात्मक वॉयस सहायक जो मरीज की पूछताछ को समझने, डॉक्टर की उपलब्धता जांचने और कैलेंडर आमंत्रण भेजने में सक्षम है।",
+      "image": "/src/assets/images/demo_voice_agent_1792125904344.jpg",
+      "isDemoConcept": true,
+      "previewUrl": "#demo-voice",
+      "capabilities": [
+        "Bilingual Voice Dialog",
+        "Lead Qualification Logic",
+        "Google Calendar Slot Reservation"
+      ],
+      "published": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "proj_demo_auto_03",
+      "title": "Omnichannel Lead Capture & WhatsApp Dispatch Pipeline",
+      "titleHi": "ओमनीचैनल लीड कैप्चर एवं व्हाट्सएप डिस्पैच पाइपलाइन",
+      "category": "automation",
+      "description": "Automated middleware connecting web enquiries with instantaneous WhatsApp alerts to business owners (+91 9838775359) and CRM updates.",
+      "descriptionHi": "वेब पूछताछ को व्यवसाय स्वामियों (+91 9838775359) को त्वरित व्हाट्सएप अलर्ट और सीआरएम अपडेट से जोड़ने वाला स्वचालित मिडलवेयर।",
+      "image": "/src/assets/images/demo_business_automation_1792125904484.jpg",
+      "isDemoConcept": true,
+      "previewUrl": "#demo-automation",
+      "capabilities": [
+        "Zero-Delay WhatsApp Alerts",
+        "Firestore Deduplication",
+        "Audit Trail & Error Logging"
+      ],
+      "published": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "proj_demo_suite_04",
+      "title": "Professional Service Consultation Scheduling Engine",
+      "titleHi": "पेशेवर सेवा कंसल्टेशन शेड्यूलिंग इंजन",
+      "category": "web",
+      "description": "Automated 30-minute booking system synchronized with personal Google Calendar, preventing double bookings with custom cancellation security tokens.",
+      "descriptionHi": "व्यक्तिगत गूगल कैलेंडर के साथ सिंक्रनाइज़ 30-मिनट का शेड्यूलिंग सिस्टम, जो डबल बुकिंग रोकता है और रद्दीकरण सुरक्षा टोकन प्रदान करता है।",
+      "image": "/src/assets/images/consultation_meeting_suite_1792125904017.jpg",
+      "isDemoConcept": true,
+      "previewUrl": "#demo-calendar",
+      "capabilities": [
+        "Double-Booking Prevention",
+        "Asia/Kolkata Timezone Engine",
+        "Tokenized Rescheduling"
+      ],
+      "published": true,
+      "sortOrder": 4
+    }
+  ],
+  "notificationLogs": [
+    {
+      "id": "notif_bk_1792126637350",
+      "bookingId": "bk_1792126637350",
+      "type": "email",
+      "recipient": "priya@hospital.org",
+      "status": "not_configured",
+      "errorDetails": "Email provider API key pending setup in environment",
+      "timestamp": "2026-10-16T04:57:17.350Z"
+    },
+    {
+      "id": "notif_wa_1792126606744",
+      "enquiryId": "enq_1792126606744_mhht",
+      "type": "whatsapp",
+      "recipient": "+919838775359",
+      "status": "not_configured",
+      "errorDetails": "WhatsApp Cloud API credentials not configured in .env",
+      "timestamp": "2026-10-16T04:56:46.744Z"
+    },
+    {
+      "id": "notif_em_1792126606744",
+      "enquiryId": "enq_1792126606744_mhht",
+      "type": "email",
+      "recipient": "anjaneykumarraianjaneykumarrai@gmail.com",
+      "status": "not_configured",
+      "errorDetails": "Email provider API key not configured in .env",
+      "timestamp": "2026-10-16T04:56:46.744Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1792126650633_y54v",
+      "userEmail": "priya@hospital.org",
+      "action": "CANCEL_BOOKING",
+      "target": "bk_1792126637350",
+      "details": "Customer requested cancellation",
+      "timestamp": "2026-10-16T04:57:30.633Z"
+    },
+    {
+      "id": "aud_1792126622453_v8gg",
+      "userEmail": "owner@nexora.ai",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "User signed in successfully",
+      "timestamp": "2026-10-16T04:57:02.453Z"
+    }
+  ],
+  "sessions": {
+    "tok_c816a971ee3ac762219e2252da5866f1aa821f70d15bb816": {
+      "userId": "usr_owner_01",
+      "email": "owner@nexora.ai",
+      "role": "owner",
+      "expiresAt": 1792213022453
+    }
+  }
+}

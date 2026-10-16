@@ -1,0 +1,6 @@
+{
+  "name": "Nexora AI Studio",
+  "description": "Production-ready website, booking system, and multi-user admin dashboard for Nexora AI Studio — modern websites, AI voice agents, and business automations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
